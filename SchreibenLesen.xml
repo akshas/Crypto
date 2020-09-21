@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SchreibenLesen</name>
+    </assembly>
+    <members>
+        <member name="M:SchreibenLesen.Lesen.LeseDatei(System.String)">
+            <summary>
+            Liest Daten aus einer Datei
+            </summary>
+            <param name="Dateiname">Dateiname</param>
+            <returns>string</returns>
+        </member>
+        <member name="F:SchreibenLesen.Schreiben.geklappt">
+            <summary>
+            wird von SchreibeDatei zurückgegeben.
+            </summary>
+        </member>
+        <member name="M:SchreibenLesen.Schreiben.SchreibeDatei(System.String,System.String,System.Boolean)">
+            <summary>
+            Schreibt Daten in eine Datei
+            </summary>
+            <param name="datei">wo</param>
+            <param name="text">was</param>
+            <param name="ueberschreiben">wie</param>
+            <returns>bool</returns>
+        </member>
+    </members>
+</doc>

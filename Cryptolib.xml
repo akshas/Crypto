@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cryptolib</name>
+    </assembly>
+    <members>
+        <member name="T:Cryptolib.Crypto">
+            <summary>
+            Eine DLL zum Ver- und Entschlüsseln von Texten
+            </summary>
+        </member>
+        <member name="M:Cryptolib.Crypto.EnCrypt(System.String,System.String,System.Security.Cryptography.ICryptoTransform)">
+            <summary>
+            Verschlüsselt einen Text
+            tse pyzdets'
+            </summary>
+        </member>
+        <member name="M:Cryptolib.Crypto.DeCrypt(System.String,System.Security.Cryptography.ICryptoTransform)">
+            <summary>
+            Entschlüsselt einen Text
+            </summary>
+        </member>
+    </members>
+</doc>
